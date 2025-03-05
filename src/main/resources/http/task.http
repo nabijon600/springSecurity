@@ -1,0 +1,23 @@
+### Creat task
+POST localhost:8080/task
+Content-Type: application/json
+
+{
+"title": "taskiy";
+"conten": "Taksis soqqani qil"
+}
+
+### Get task
+GET localhost:8080/task
+
+### Get task by id
+GET localhost:8080/task/c492d05e-210e-4263-b189-85987205de44
+
+### Delete task
+DELETE localhost:8080/task/c492d05e-210e-4263-b189-85987205de44
+
+### Brauzer dan murojaat qilish mumkun
+### {
+### login: user
+### passw: UUID kod beradi spring yurganda o'sha
+### }
